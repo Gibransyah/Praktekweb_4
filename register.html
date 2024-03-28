@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Register</title>
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Register</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label> Nama Lengkap</label>
+          <input type="text" placeholder="Masukan Nama Lengkap" required />
+        </div>
+
+        <div class="input-box">
+          <label> NIM</label>
+          <input type="text" placeholder="Masukan NIM" required />
+        </div>
+
+        <div class="gender-box">
+          <h3>Jenis Kelamin</h3>
+          <div class="pilih-gender">
+            <div class="gender">
+              <input type="radio" id="check-pria" name="radio" checked />
+              <label for="check-pria">Pria</label>
+            </div>
+
+            <div class="gender">
+              <input type="radio" id="check-wanita" name="radio" />
+              <label for="check-wanita">wanita</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box Jurusan">
+          <p>Jurusan</p>
+          <div class="selection-box">
+            <select>
+              <option>Jurusan</option>
+              <option>d3 Teknik Informatika</option>
+              <option>s1 Informatika</option>
+              <option>s1 Sistem Informasi</option>
+              <option>s1 Ilmu Komunikasi</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-box Jurusan">
+          <p>Kelas</p>
+          <div class="selection-box">
+            <select>
+              <option>Kelas</option>
+              <option>Kelas 01</option>
+              <option>Kelas 02</option>
+              <option>Kelas 03</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <label> IPK</label>
+          <input type="text" placeholder="Masukan IPK" required />
+        </div>
+
+        <button>Register</button>
+      </form>
+    </section>
+  </body>
+</html>
